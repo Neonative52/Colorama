@@ -4,10 +4,7 @@ import ColorForm from './ColorForm';
 function App() {
   const [color,setColor] = useState('');
   const [isDarkText,setIsDarkText] = useState(true);
-  const handleChange = (e) => {
-    const newColor = e.target.value;
-    setColor(newColor)
-  }
+
   return (
     <div className="App">
       <header className='title'>COLORAMA</header>
