@@ -8,7 +8,7 @@ const ColorBox = ({color,isDarkText,setIsDarkText}) => {
           backgroundColor : color,
           color : isDarkText ? "#000" : "#FFF"
         }}>
-      <p>{color?color:"Empty Value"}</p>
+      <p>{color?color:"WHITE"}</p>
     </section>
   )
 }
